@@ -13,15 +13,57 @@
     == Home-genius data                         == Homo and Hetro genius data
     == There is no underlying data structure    == Implemented by using underlying data structure
 
-    MAIN INTERFACES
+    MAIN INTERFACES of Collection Framework
     1- Collection Interface == root interface
+    its's METHODS ===>
+    https://www.geeksforgeeks.org/collection-interface-in-java-with-examples/
+    add(Object o), addAll(Collection c), remove(Object o), removeAll(Collection c), retainAll(Collection c),
+    isEmpty(), size(), contains(Object o), toArray(T[] a), iterator() etc
 
     Collections == it is a pre defined CLASS from java.utils package. It has to many methods that we use them for collection objects. Like sort method.
 
-    2- List extends Collection
-    Child of Collection.
+    2- LIST interface extends Collection methods ==> get(index), set(index, object)
+    -- Child of Collection.
+    -- Insertion Order preserve
+    -- Duplication allowed
+                        == ArrayList class
+                                -- java.util
+                                -- growable
+                        == LinkedList class
+                        == Vector and Stack (Legacy classes)
+
+    3- SET interface extends Collection
+    -- Child of Collection.
+    -- Insertion order NOT Preserve
+    -- Duplication NOT allowed
+                            == HashSet class
+                            == LinkedHashSet class
+
+    4- Queue interface extends Collection
+    -- Child of Collection.
+    -- when there is priority processing we use queue (FIFO)
+                            == PriorityQueue class
+
+    INDEPENDENT INTERFACE ====> MAP INTERFACE
+    -- Key and Value pairs
+    -- No duplicate KEY, Value can be duplicated
+                                    == HashMap class
+                                    == LinkedHashMap class
+                                    == HashTable class
 
 
-    3- Set extends Collection
 
-    4- Queue extends Collection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
