@@ -1,3 +1,5 @@
+package rank;
+
 public class RepeatedString {
     public static void main(String[] args) {
 

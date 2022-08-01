@@ -1,3 +1,5 @@
+package rank;
+
 import java.util.Scanner;
 
 public class JAvaOutPutFormatting {

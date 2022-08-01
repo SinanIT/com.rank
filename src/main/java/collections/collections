@@ -1,0 +1,27 @@
+1- It is group of objects.
+    -  its is single entity which is representing multiple objects.
+    -  Collection framework: group of classes and interfaces by which we can represent group of objects into single entity.
+    ==> array can hold only same type of data.
+    if we create Object of Array we can store in array multiple data.
+    ==> Array fixed in size. it is not growable in nature.
+    ==> Arrays is not implemented any data structure.
+
+    To overcome these limitations we use Collection framework
+
+    Array                                       Collections
+    == fix size                                 == growable in nature
+    == Home-genius data                         == Homo and Hetro genius data
+    == There is no underlying data structure    == Implemented by using underlying data structure
+
+    MAIN INTERFACES
+    1- Collection Interface == root interface
+
+    Collections == it is a pre defined CLASS from java.utils package. It has to many methods that we use them for collection objects. Like sort method.
+
+    2- List extends Collection
+    Child of Collection.
+
+
+    3- Set extends Collection
+
+    4- Queue extends Collection
